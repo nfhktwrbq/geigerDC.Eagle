@@ -15313,55 +15313,6 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="cr2032">
-<packages>
-<package name="CR2032-20MM">
-<circle x="0" y="0" radius="10.501903125" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="3.7" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="-3.7" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="-13.2" x2="3.7" y2="-13.2" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="11.055540625" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="11" width="0.127" layer="21"/>
-<pad name="GND" x="0" y="10.5" drill="0.8" shape="square"/>
-<pad name="VCC" x="0" y="-10.5" drill="0.8" shape="square"/>
-<wire x1="-3.7" y1="-13.2" x2="-3.7" y2="-10.45" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-13.2" x2="3.7" y2="-10.45" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-11.05" width="0.127" layer="21"/>
-<text x="0" y="5.05" size="1.27" layer="21">&gt;Name</text>
-<text x="0" y="3.25" size="1.27" layer="21">&gt;Value</text>
-<hole x="0" y="10.5" drill="1"/>
-<hole x="0" y="-10.5" drill="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CR2032">
-<pin name="GND" x="0" y="-3.1" length="middle" rot="R180"/>
-<pin name="VCC" x="0" y="3.1" length="middle" rot="R180"/>
-<wire x1="-5" y1="5" x2="-14" y2="5" width="0.254" layer="94"/>
-<wire x1="-14" y1="5" x2="-14" y2="-5" width="0.254" layer="94"/>
-<wire x1="-14" y1="-5" x2="-5" y2="-5" width="0.254" layer="94"/>
-<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CR2032">
-<gates>
-<gate name="G$1" symbol="CR2032" x="7.62" y="0"/>
-</gates>
-<devices>
-<device name="" package="CR2032-20MM">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-cypressindustries" urn="urn:adsk.eagle:library:138">
 <description>&lt;b&gt;Connectors from Cypress Industries&lt;/b&gt;&lt;p&gt;
 www.cypressindustries.com&lt;br&gt;
@@ -26471,97 +26422,6 @@ Source: coiltronics_dr_series.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diode" urn="urn:adsk.eagle:library:210">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DO41-10" urn="urn:adsk.eagle:footprint:43094/1" library_version="4">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="A" x="5.08" y="0" drill="1.1176"/>
-<pad name="C" x="-5.08" y="0" drill="1.1176"/>
-<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
-<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
-<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="DO41-10" urn="urn:adsk.eagle:package:43336/1" type="box" library_version="4">
-<description>DIODE
-diameter 2.54 mm, horizontal, grid 10.16 mm</description>
-<packageinstances>
-<packageinstance name="DO41-10"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SCHOTTKY" urn="urn:adsk.eagle:symbol:43101/2" library_version="4">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BAT49" urn="urn:adsk.eagle:component:43472/3" prefix="D" library_version="8">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-small signal diode</description>
-<gates>
-<gate name="A" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO41-10">
-<connects>
-<connect gate="A" pin="A" pad="A"/>
-<connect gate="A" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43336/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="0" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="M95256-WMN6TP">
 <packages>
 <package name="SOIC127P600X175-8N">
@@ -27344,6 +27204,100 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="XH">
+<packages>
+<package name="XH-B3B">
+<wire x1="0" y1="0" x2="9.9" y2="0" width="0.127" layer="21"/>
+<wire x1="9.9" y1="0" x2="9.9" y2="5.8" width="0.127" layer="21"/>
+<wire x1="9.9" y1="5.8" x2="0" y2="5.8" width="0.127" layer="21"/>
+<wire x1="0" y1="5.8" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="A" x="2.45" y="2.35" drill="1" shape="octagon"/>
+<pad name="K" x="7.45" y="2.35" drill="1" shape="octagon"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TUBE">
+<pin name="A" x="-10.16" y="2.54" length="middle"/>
+<pin name="K" x="-10.16" y="-2.54" length="middle"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TUBE">
+<gates>
+<gate name="G$1" symbol="TUBE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XH-B3B">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="batteries">
+<packages>
+<package name="DS1092-10-W6L">
+<smd name="-" x="1.5" y="1.8" dx="3" dy="3.6" layer="1"/>
+<smd name="+" x="30.8" y="1.8" dx="3" dy="3.6" layer="1"/>
+<wire x1="5.15" y1="-6.3" x2="27.15" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="27.15" y1="-6.3" x2="27.15" y2="7.8" width="0.127" layer="21"/>
+<wire x1="25.05" y1="8" x2="25" y2="9.8" width="0.127" layer="21"/>
+<wire x1="25" y1="9.8" x2="5.15" y2="9.8" width="0.127" layer="21"/>
+<wire x1="5.15" y1="9.8" x2="5.15" y2="-6.3" width="0.127" layer="21"/>
+<wire x1="25" y1="9.8" x2="25" y2="7.8" width="0.127" layer="21"/>
+<wire x1="25" y1="7.8" x2="27.15" y2="7.8" width="0.127" layer="21"/>
+<wire x1="2" y1="3.7" x2="2" y2="5.3" width="0.127" layer="21"/>
+<wire x1="2" y1="5.3" x2="5.1" y2="5.3" width="0.127" layer="21"/>
+<wire x1="5.1" y1="5.3" x2="5.1" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-1.7" x2="2" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.7" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="27.2" y1="5.3" x2="27.2" y2="5.2" width="0.127" layer="21"/>
+<wire x1="27.2" y1="5.2" x2="30.3" y2="5.2" width="0.127" layer="21"/>
+<wire x1="30.3" y1="5.2" x2="30.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="27.3" y1="-1.7" x2="30.3" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="30.3" y1="-1.7" x2="30.3" y2="-0.1" width="0.127" layer="21"/>
+<text x="25" y="-6" size="2.54" layer="21" font="vector">+</text>
+<text x="6" y="7.5" size="2.54" layer="21" font="vector">-</text>
+<circle x="16.15" y="1.6" radius="10" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DS1092-10-W6L">
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<pin name="-" x="-7.62" y="0" length="middle"/>
+<pin name="+" x="5.08" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DS1092-10-W6L">
+<gates>
+<gate name="G$1" symbol="DS1092-10-W6L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DS1092-10-W6L">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -27380,7 +27334,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U$4" library="cr2032" deviceset="CR2032" device=""/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330Om"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="330pF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -27445,7 +27398,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805" value="1MOm"/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="1MOm"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="1MOm"/>
-<part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT49" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="TUBE"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="050-024X044" package3d_urn="urn:adsk.eagle:package:23643/1"/>
 <part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.5kOm"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10kOm"/>
@@ -27573,6 +27525,8 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="J1" library="B2B-XH-A_LF__SN_" deviceset="B2B-XH-A(LF)(SN)" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="L5" library="SparkFun" deviceset="INDUCTOR" device="0805"/>
+<part name="TUBE" library="XH" deviceset="TUBE" device=""/>
+<part name="U$1" library="batteries" deviceset="DS1092-10-W6L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27675,7 +27629,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <instance part="+3V3" gate="G$1" x="86.36" y="119.38" smashed="yes">
 <attribute name="VALUE" x="83.82" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$4" gate="G$1" x="73.66" y="129.54" smashed="yes"/>
 <instance part="R33" gate="G$1" x="86.36" y="132.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="82.7786" y="133.35" size="1.778" layer="95"/>
 <attribute name="VALUE" x="83.058" y="128.27" size="1.778" layer="96"/>
@@ -27916,10 +27869,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <instance part="R15" gate="G$1" x="307.34" y="391.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="303.7586" y="392.43" size="1.778" layer="95"/>
 <attribute name="VALUE" x="304.038" y="387.35" size="1.778" layer="96"/>
-</instance>
-<instance part="D8" gate="A" x="317.5" y="381" smashed="yes" rot="R270">
-<attribute name="NAME" x="319.405" y="383.286" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="314.071" y="383.286" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C8" gate="G$1" x="327.66" y="391.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="327.279" y="392.684" size="1.778" layer="95" rot="R90"/>
@@ -28378,6 +28327,8 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <attribute name="NAME" x="-68.58" y="254" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-58.42" y="254" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="TUBE" gate="G$1" x="332.74" y="370.84" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="66.04" y="134.62" smashed="yes" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -28475,15 +28426,15 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="73.66" y1="126.44" x2="99.06" y2="126.44" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="126.44" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="99.06" y1="124.46" x2="99.06" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="147.32" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 <junction x="99.06" y="124.46"/>
+<pinref part="U$1" gate="G$1" pin="-"/>
+<wire x1="66.04" y1="127" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -28572,8 +28523,6 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <junction x="149.86" y="337.82"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="269.24" y1="360.68" x2="269.24" y2="337.82" width="0.1524" layer="91"/>
-<pinref part="D8" gate="A" pin="C"/>
-<wire x1="317.5" y1="378.46" x2="317.5" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="337.82" x2="269.24" y2="337.82" width="0.1524" layer="91"/>
 <junction x="269.24" y="337.82"/>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -28587,6 +28536,9 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="124.46" y1="378.46" x2="127" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="127" y1="378.46" x2="127" y2="337.82" width="0.1524" layer="91"/>
 <junction x="127" y="337.82"/>
+<pinref part="TUBE" gate="G$1" pin="K"/>
+<wire x1="322.58" y1="368.3" x2="317.5" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="368.3" x2="317.5" y2="337.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -29066,9 +29018,13 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
 <wire x1="81.28" y1="132.08" x2="81.28" y2="132.64" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="132.64" x2="73.66" y2="132.64" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="+"/>
+<wire x1="66.04" y1="139.7" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="142.24" x2="76.2" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
+<junction x="81.28" y="132.08"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -29481,11 +29437,12 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="391.16" x2="317.5" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="D8" gate="A" pin="A"/>
-<wire x1="317.5" y1="391.16" x2="317.5" y2="383.54" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="325.12" y1="391.16" x2="317.5" y2="391.16" width="0.1524" layer="91"/>
 <junction x="317.5" y="391.16"/>
+<pinref part="TUBE" gate="G$1" pin="A"/>
+<wire x1="322.58" y1="373.38" x2="317.5" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="373.38" x2="317.5" y2="391.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$61" class="0">
