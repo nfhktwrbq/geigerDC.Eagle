@@ -109,6 +109,7 @@
 <pad name="P$11" x="41.06" y="44.15" drill="1.016" diameter="1.524" shape="long" rot="R90"/>
 <pad name="P$12" x="43.6" y="44.15" drill="1.016" diameter="1.524" shape="long" rot="R90"/>
 <pad name="P$13" x="46.14" y="44.15" drill="1.016" diameter="1.524" shape="long" rot="R90"/>
+<text x="4.1" y="47.1" size="2.54" layer="21" font="vector">12864-06D</text>
 </package>
 <package name="1X02" urn="urn:adsk.eagle:footprint:22309/1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>

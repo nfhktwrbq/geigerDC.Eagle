@@ -14908,123 +14908,6 @@ chip</description>
 <text x="-2.54" y="4.01" size="0.4064" layer="25">&gt;Name</text>
 <text x="-2.7" y="-4.39" size="0.4064" layer="27">&gt;Value</text>
 </package>
-<package name="BUZZER-12MM">
-<description>&lt;b&gt;BUZZER&lt;/b&gt;</description>
-<circle x="0" y="0" radius="5.9" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="51"/>
-<pad name="-" x="-3.25" y="0" drill="0.9" diameter="1.778"/>
-<pad name="+" x="3.25" y="0" drill="0.9" diameter="1.778"/>
-<text x="-2.54" y="2.54" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-3.048" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="BUZZER-CMT1603">
-<wire x1="-8" y1="8" x2="-8" y2="-8" width="0.127" layer="21"/>
-<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.127" layer="21"/>
-<wire x1="8" y1="-8" x2="8" y2="8" width="0.127" layer="21"/>
-<wire x1="8" y1="8" x2="-8" y2="8" width="0.127" layer="21"/>
-<smd name="P$1" x="-9.3" y="0" dx="2.5" dy="3" layer="1"/>
-<smd name="P$2" x="9.3" y="0" dx="2.5" dy="3" layer="1"/>
-</package>
-<package name="BUZZER-CCV">
-<wire x1="2.6" y1="-6" x2="-2.6" y2="-6" width="0.127" layer="51"/>
-<wire x1="2.6" y1="-6" x2="2.6" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-4.2" y1="1.6" x2="1.27" y2="4.318" width="0.2032" layer="21" curve="-86.141052"/>
-<wire x1="3.048" y1="3.302" x2="4.191" y2="1.651" width="0.2032" layer="21" curve="-25.69541"/>
-<wire x1="4.2" y1="-1.6" x2="2.6" y2="-3.7" width="0.2032" layer="21" curve="-31.605028"/>
-<wire x1="-3.302" y1="-3.048" x2="-2.6" y2="-3.6" width="0.2032" layer="21" curve="12.917633"/>
-<wire x1="-2.6" y1="-6" x2="2.6" y2="-6" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-6" x2="2.6" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.6" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
-<smd name="-" x="-4" y="0" dx="3.2" dy="2.5" layer="1"/>
-<smd name="+" x="4" y="0" dx="3.2" dy="2.5" layer="1"/>
-<hole x="-3.9" y="-2.25" drill="0.8"/>
-<hole x="2.25" y="3.9" drill="0.8"/>
-</package>
-<package name="BUZZER-CMT1102">
-<wire x1="-5.5" y1="4.5" x2="5.5" y2="4.5" width="0.127" layer="51"/>
-<wire x1="5.5" y1="4.5" x2="5.5" y2="-4.5" width="0.127" layer="51"/>
-<wire x1="5.5" y1="-4.5" x2="-5.5" y2="-4.5" width="0.127" layer="51"/>
-<wire x1="-5.5" y1="-4.5" x2="-5.5" y2="4.5" width="0.127" layer="51"/>
-<wire x1="-5.5" y1="4.5" x2="-5.5" y2="2" width="0.2032" layer="21"/>
-<wire x1="-5.5" y1="4.5" x2="5.5" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="5.5" y1="4.5" x2="5.5" y2="2" width="0.2032" layer="21"/>
-<wire x1="5.5" y1="-2" x2="5.5" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="5.5" y1="-4.5" x2="-5.5" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-5.5" y1="-4.5" x2="-5.5" y2="-2" width="0.2032" layer="21"/>
-<smd name="1" x="-6.5" y="0" dx="3" dy="3" layer="1"/>
-<smd name="2" x="6.5" y="0" dx="3" dy="3" layer="1"/>
-</package>
-<package name="BUZZER-12MM-NS">
-<circle x="0" y="0" radius="5.9" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="51"/>
-<pad name="-" x="-3.25" y="0" drill="0.9"/>
-<pad name="+" x="3.25" y="0" drill="0.9"/>
-<text x="-2.54" y="2.54" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-3.048" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-<text x="2.667" y="1.143" size="1.778" layer="51">+</text>
-</package>
-<package name="BUZZER-12MM-NS-KIT">
-<description>&lt;h3&gt;BUZZER-12MM-NS-KIT&lt;/h3&gt;
-Through-hole buzzer&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<circle x="0" y="0" radius="5.9" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.2032" layer="51"/>
-<pad name="-" x="-3.25" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<pad name="+" x="3.25" y="0" drill="0.9" diameter="1.8796" stop="no"/>
-<text x="-2.54" y="2.54" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.175" y="-3.048" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
-<text x="2.667" y="1.143" size="1.778" layer="51">+</text>
-<polygon width="0.127" layer="30">
-<vertex x="3.2537" y="-0.9525" curve="-90"/>
-<vertex x="2.2988" y="-0.0228" curve="-90.011749"/>
-<vertex x="3.2512" y="0.9526" curve="-90"/>
-<vertex x="4.2012" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="3.2512" y="-0.4445" curve="-90.012891"/>
-<vertex x="2.8067" y="-0.0203" curve="-90"/>
-<vertex x="3.2512" y="0.447" curve="-90"/>
-<vertex x="3.6931" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="-3.2487" y="-0.9525" curve="-90"/>
-<vertex x="-4.2036" y="-0.0228" curve="-90.011749"/>
-<vertex x="-3.2512" y="0.9526" curve="-90"/>
-<vertex x="-2.3012" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-3.2512" y="-0.4445" curve="-90.012891"/>
-<vertex x="-3.6957" y="-0.0203" curve="-90"/>
-<vertex x="-3.2512" y="0.447" curve="-90"/>
-<vertex x="-2.8093" y="-0.0101" curve="-90.012967"/>
-</polygon>
-</package>
-<package name="BUZZER-CCV-KIT">
-<description>&lt;h3&gt;BUZZER-CCV-KIT&lt;/h3&gt;
-SMD Buzzer&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has longer pads to aid in hand soldering.</description>
-<wire x1="2.6" y1="-6" x2="-2.6" y2="-6" width="0.127" layer="51"/>
-<wire x1="2.6" y1="-6" x2="2.6" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-4.2" y1="1.6" x2="1.27" y2="4.318" width="0.2032" layer="21" curve="-86.141052"/>
-<wire x1="3.048" y1="3.302" x2="4.191" y2="1.651" width="0.2032" layer="21" curve="-25.69541"/>
-<wire x1="4.2" y1="-1.6" x2="2.6" y2="-3.7" width="0.2032" layer="21" curve="-31.605028"/>
-<wire x1="-3.302" y1="-3.048" x2="-2.6" y2="-3.6" width="0.2032" layer="21" curve="12.917633"/>
-<wire x1="-2.6" y1="-6" x2="2.6" y2="-6" width="0.2032" layer="21"/>
-<wire x1="2.6" y1="-6" x2="2.6" y2="-3.7" width="0.2032" layer="21"/>
-<wire x1="-2.6" y1="-6" x2="-2.6" y2="-3.6" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="4.5" width="0.127" layer="51"/>
-<smd name="-" x="-4.15" y="0" dx="3.5" dy="2" layer="1"/>
-<smd name="+" x="4.15" y="0" dx="3.5" dy="2" layer="1"/>
-<rectangle x1="-5.2" y1="-0.75" x2="-2.9" y2="0.75" layer="51"/>
-<rectangle x1="2.9" y1="-0.75" x2="5.2" y2="0.75" layer="51" rot="R180"/>
-<hole x="-3.9" y="-2.25" drill="0.8"/>
-<hole x="2.25" y="3.9" drill="0.8"/>
-</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -15040,31 +14923,6 @@ SMD Buzzer&lt;br&gt;
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="BUZZER">
-<wire x1="-1.27" y1="1.905" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="3.175" x2="0.635" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0.635" x2="1.905" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="3.175" x2="0.635" y2="3.175" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="3.81" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="3.81" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.81" x2="5.715" y2="3.81" width="0.254" layer="94"/>
-<wire x1="5.715" y1="3.81" x2="5.715" y2="4.445" width="0.254" layer="94"/>
-<wire x1="5.715" y1="4.445" x2="-3.175" y2="4.445" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="4.445" x2="-3.175" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="3.81" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="6.35" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15232,78 +15090,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BUZZER" prefix="SG">
-<description>&lt;b&gt;Buzzer 12mm&lt;/b&gt;
-Spark Fun Electronics SKU : Comp-Buzzer</description>
-<gates>
-<gate name="G$1" symbol="BUZZER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="BUZZER-12MM">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD" package="BUZZER-CMT1603">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2" package="BUZZER-CCV">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD3" package="BUZZER-CMT1102">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NS" package="BUZZER-12MM-NS">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH-NS-KIT" package="BUZZER-12MM-NS-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2-KIT" package="BUZZER-CCV-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="+"/>
-<connect gate="G$1" pin="2" pad="-"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -26833,7 +26619,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <pad name="11" x="41.06" y="44.15" drill="1.016" diameter="1.524" shape="long" rot="R90"/>
 <pad name="12" x="43.6" y="44.15" drill="1.016" diameter="1.524" shape="long" rot="R90"/>
 <pad name="13" x="46.14" y="44.15" drill="1.016" diameter="1.524" shape="long" rot="R90"/>
-<text x="4.1" y="47.1" size="2.54" layer="21" font="vector">12864-06D</text>
 </package>
 </packages>
 <symbols>
@@ -27247,8 +27032,8 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <library name="batteries">
 <packages>
 <package name="DS1092-10-W6L">
-<smd name="-" x="1.5" y="1.8" dx="3" dy="3.6" layer="1"/>
-<smd name="+" x="30.8" y="1.8" dx="3" dy="3.6" layer="1"/>
+<smd name="-" x="1.5" y="1.8" dx="5" dy="4.6" layer="1"/>
+<smd name="+" x="30.8" y="1.8" dx="5" dy="4.6" layer="1"/>
 <wire x1="5.15" y1="-6.3" x2="27.15" y2="-6.3" width="0.127" layer="21"/>
 <wire x1="27.15" y1="-6.3" x2="27.15" y2="7.8" width="0.127" layer="21"/>
 <wire x1="25.05" y1="8" x2="25" y2="9.8" width="0.127" layer="21"/>
@@ -27256,16 +27041,16 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="5.15" y1="9.8" x2="5.15" y2="-6.3" width="0.127" layer="21"/>
 <wire x1="25" y1="9.8" x2="25" y2="7.8" width="0.127" layer="21"/>
 <wire x1="25" y1="7.8" x2="27.15" y2="7.8" width="0.127" layer="21"/>
-<wire x1="2" y1="3.7" x2="2" y2="5.3" width="0.127" layer="21"/>
+<wire x1="2" y1="4.208" x2="2" y2="5.3" width="0.127" layer="21"/>
 <wire x1="2" y1="5.3" x2="5.1" y2="5.3" width="0.127" layer="21"/>
 <wire x1="5.1" y1="5.3" x2="5.1" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="5.1" y1="-1.7" x2="2" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.7" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.7" x2="2" y2="-0.608" width="0.127" layer="21"/>
 <wire x1="27.2" y1="5.3" x2="27.2" y2="5.2" width="0.127" layer="21"/>
 <wire x1="27.2" y1="5.2" x2="30.3" y2="5.2" width="0.127" layer="21"/>
-<wire x1="30.3" y1="5.2" x2="30.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="30.3" y1="5.2" x2="30.3" y2="4.208" width="0.127" layer="21"/>
 <wire x1="27.3" y1="-1.7" x2="30.3" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="30.3" y1="-1.7" x2="30.3" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="30.3" y1="-1.7" x2="30.3" y2="-0.608" width="0.127" layer="21"/>
 <text x="25" y="-6" size="2.54" layer="21" font="vector">+</text>
 <text x="6" y="7.5" size="2.54" layer="21" font="vector">-</text>
 <circle x="16.15" y="1.6" radius="10" width="0.127" layer="21"/>
@@ -27298,6 +27083,55 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="buzzer">
+<packages>
+<package name="BUZZER">
+<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="2.5" x2="-6" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-6" y1="-2.5" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
+<smd name="1" x="0" y="3.5" dx="2.2" dy="4.2" layer="1"/>
+<smd name="2" x="0" y="-3.5" dx="2.2" dy="4.2" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SP">
+<wire x1="-1.905" y1="-0.635" x2="1.905" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-0.635" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="2.54" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="2.54" width="0.254" layer="94"/>
+<text x="-3.81" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BUZZER">
+<gates>
+<gate name="G$1" symbol="SP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="BUZZER">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -27317,13 +27151,13 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="C34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10nF"/>
 <part name="C35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1uF"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="12MHz"/>
+<part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49UP" value="12MHz"/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF"/>
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100nF"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q3" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX-327" device="-S" package3d_urn="urn:adsk.eagle:package:11939/1" value="32768KHz"/>
+<part name="Q2" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX-327" device="-S" package3d_urn="urn:adsk.eagle:package:11939/1" value="32768KHz"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF"/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="20pF"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -27344,14 +27178,14 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="X1" library="con-cypressindustries" library_urn="urn:adsk.eagle:library:138" deviceset="MINI-USB-" device="32005-201" package3d_urn="urn:adsk.eagle:package:6443/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="adafruit" deviceset="MC33063/MC34063" device="D"/>
+<part name="U6" library="adafruit" deviceset="MC33063/MC34063" device="D"/>
 <part name="R30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100kOm"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100kOm"/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="51kOm"/>
 <part name="T12" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="IRLML5203" device="" package3d_urn="urn:adsk.eagle:package:29512/2"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T13" library="IRLML2502" deviceset="IRLML2502" device=""/>
-<part name="IC1" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
+<part name="U4" library="burr-brown" library_urn="urn:adsk.eagle:library:111" deviceset="REG1117" device="" package3d_urn="urn:adsk.eagle:package:4940/1"/>
 <part name="D11" library="BAT54C" deviceset="BAT54C" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="10uF"/>
@@ -27444,7 +27278,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330Om"/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330Om"/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330Om"/>
-<part name="SG1" library="SparkFun" deviceset="BUZZER" device="SMD2-KIT" value="BUZZERSMD2-KIT"/>
+<part name="SG1" library="buzzer" deviceset="BUZZER" device="" value="BUZZER"/>
 <part name="D12" library="BAT54C" deviceset="BAT54C" device=""/>
 <part name="T14" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC850" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="51kOm"/>
@@ -27464,7 +27298,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <part name="+3V18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330Om"/>
-<part name="U$3" library="L6902DTR" deviceset="L6920DTR" device=""/>
+<part name="U5" library="L6902DTR" deviceset="L6920DTR" device=""/>
 <part name="U3" library="MCP73831T-4ADI_OT" deviceset="MCP73831T-4ADI/OT" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="2kOm"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -27567,7 +27401,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <instance part="GND2" gate="1" x="266.7" y="96.52" smashed="yes">
 <attribute name="VALUE" x="264.16" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="195.58" y="48.26" smashed="yes" rot="R90">
+<instance part="Q1" gate="G$1" x="195.58" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="202.184" y="50.8" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="198.12" y="45.72" size="1.778" layer="96"/>
 </instance>
@@ -27589,7 +27423,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <instance part="GND4" gate="1" x="93.98" y="88.9" smashed="yes">
 <attribute name="VALUE" x="91.44" y="86.36" size="1.778" layer="96"/>
 </instance>
-<instance part="Q3" gate="G$1" x="101.6" y="45.72" smashed="yes" rot="R90">
+<instance part="Q2" gate="G$1" x="101.6" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.33" y="49.53" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="106.68" y="41.91" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -27664,7 +27498,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <instance part="GND8" gate="1" x="-58.42" y="53.34" smashed="yes">
 <attribute name="VALUE" x="-60.96" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="50.8" y="373.38" smashed="yes">
+<instance part="U6" gate="G$1" x="50.8" y="373.38" smashed="yes">
 <attribute name="NAME" x="60.96" y="386.08" size="1.6764" layer="95" rot="R180"/>
 </instance>
 <instance part="R30" gate="G$1" x="-17.78" y="205.74" smashed="yes">
@@ -27690,7 +27524,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <attribute name="VALUE" x="6.3675" y="200.66" size="1.78073125" layer="96" rot="MR0"/>
 <attribute name="NAME" x="6.3542" y="203.200940625" size="1.778659375" layer="95" rot="MR0"/>
 </instance>
-<instance part="IC1" gate="G$1" x="76.2" y="231.14" smashed="yes">
+<instance part="U4" gate="G$1" x="76.2" y="231.14" smashed="yes">
 <attribute name="NAME" x="68.58" y="236.855" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="71.12" y="233.68" size="1.778" layer="96" ratio="10"/>
 </instance>
@@ -28038,13 +27872,13 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <attribute name="NAME" x="390.1186" y="24.13" size="1.778" layer="95"/>
 <attribute name="VALUE" x="390.398" y="19.05" size="1.778" layer="96"/>
 </instance>
-<instance part="SG1" gate="G$1" x="-7.62" y="137.16" smashed="yes" rot="MR270">
-<attribute name="NAME" x="-12.7" y="139.7" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="-7.62" y="130.81" size="1.778" layer="96" rot="MR270"/>
+<instance part="SG1" gate="G$1" x="-12.7" y="134.62" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-7.62" y="132.08" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="-12.7" y="140.97" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="D12" gate="G$1" x="7.62" y="139.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="5.07523125" y="142.24476875" size="1.781340625" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="5.07858125" y="135.88786875" size="1.778990625" layer="96" rot="MR0"/>
+<instance part="D12" gate="G$1" x="7.62" y="144.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="5.07523125" y="147.32476875" size="1.781340625" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="5.07858125" y="140.96786875" size="1.778990625" layer="96" rot="MR0"/>
 </instance>
 <instance part="T14" gate="G$1" x="10.16" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="20.32" y="129.54" size="1.778" layer="95" rot="MR0"/>
@@ -28112,7 +27946,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <attribute name="NAME" x="288.5186" y="87.63" size="1.778" layer="95"/>
 <attribute name="VALUE" x="288.798" y="82.55" size="1.778" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="-190.5" y="248.92" smashed="yes"/>
+<instance part="U5" gate="G$1" x="-190.5" y="248.92" smashed="yes"/>
 <instance part="U3" gate="A" x="-66.04" y="497.84" smashed="yes">
 <attribute name="NAME" x="-70.16195" y="507.9158" size="2.08641875" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="-71.99248125" y="480.644" size="2.08591875" layer="96" ratio="10" rot="SR0"/>
@@ -28479,7 +28313,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="C25" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="218.44" x2="96.52" y2="215.9" width="0.1524" layer="91"/>
 <junction x="96.52" y="215.9"/>
-<pinref part="IC1" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 <wire x1="76.2" y1="218.44" x2="76.2" y2="215.9" width="0.1524" layer="91"/>
 <junction x="76.2" y="215.9"/>
 </segment>
@@ -28496,7 +28330,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <junction x="73.66" y="337.82"/>
 <junction x="109.22" y="337.82"/>
 <wire x1="109.22" y1="368.3" x2="109.22" y2="337.82" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="38.1" y1="365.76" x2="35.56" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="365.76" x2="35.56" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="337.82" x2="66.04" y2="337.82" width="0.1524" layer="91"/>
@@ -28724,7 +28558,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="-213.36" y1="226.06" x2="-213.36" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="FB"/>
+<pinref part="U5" gate="G$1" pin="FB"/>
 <wire x1="-205.74" y1="256.54" x2="-228.6" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="-228.6" y1="256.54" x2="-228.6" y2="226.06" width="0.1524" layer="91"/>
@@ -28742,7 +28576,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="-114.3" y1="231.14" x2="-114.3" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="228.6" x2="-149.86" y2="228.6" width="0.1524" layer="91"/>
 <junction x="-149.86" y="228.6"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
 <wire x1="-175.26" y1="246.38" x2="-167.64" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="246.38" x2="-167.64" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="-167.64" y1="228.6" x2="-160.02" y2="228.6" width="0.1524" layer="91"/>
@@ -28800,7 +28634,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <wire x1="187.96" y1="50.8" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C41" gate="G$1" pin="1"/>
 <wire x1="187.96" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="45.72" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 <junction x="195.58" y="43.18"/>
@@ -28811,7 +28645,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="U2" gate="G$1" pin="PD0_OSC_IN"/>
 <pinref part="C37" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="50.8" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
 <junction x="195.58" y="53.34"/>
@@ -28830,7 +28664,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="U2" gate="G$1" pin="PC14-OSC32_IN"/>
 <pinref part="C38" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="2"/>
+<pinref part="Q2" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="48.26" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <junction x="101.6" y="50.8"/>
@@ -28841,7 +28675,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="U2" gate="G$1" pin="PC15-OSC32_OUT"/>
 <wire x1="124.46" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="111.76" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="G$1" pin="1"/>
+<pinref part="Q2" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C40" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
@@ -28888,7 +28722,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <wire x1="106.68" y1="238.76" x2="106.68" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VOUT"/>
+<pinref part="U4" gate="G$1" pin="VOUT"/>
 <wire x1="88.9" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="231.14" x2="96.52" y2="226.06" width="0.1524" layer="91"/>
@@ -29142,7 +28976,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="SWC"/>
+<pinref part="U6" gate="G$1" pin="SWC"/>
 <wire x1="38.1" y1="381" x2="33.02" y2="381" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="381" x2="33.02" y2="391.16" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -29151,10 +28985,10 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <junction x="33.02" y="381"/>
 <wire x1="33.02" y1="360.68" x2="78.74" y2="360.68" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="360.68" x2="78.74" y2="370.84" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="DC"/>
+<pinref part="U6" gate="G$1" pin="DC"/>
 <wire x1="78.74" y1="370.84" x2="78.74" y2="381" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="381" x2="66.04" y2="381" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="U6" gate="G$1" pin="VCC"/>
 <wire x1="66.04" y1="370.84" x2="78.74" y2="370.84" width="0.1524" layer="91"/>
 <junction x="78.74" y="370.84"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -29178,7 +29012,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="391.16" x2="71.12" y2="391.16" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="391.16" x2="71.12" y2="375.92" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="IPK"/>
+<pinref part="U6" gate="G$1" pin="IPK"/>
 <wire x1="71.12" y1="375.92" x2="66.04" y2="375.92" width="0.1524" layer="91"/>
 <junction x="71.12" y="391.16"/>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -29195,7 +29029,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="N$34" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="SWE"/>
+<pinref part="U6" gate="G$1" pin="SWE"/>
 <wire x1="38.1" y1="375.92" x2="27.94" y2="375.92" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="375.92" x2="27.94" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="358.14" x2="83.82" y2="358.14" width="0.1524" layer="91"/>
@@ -29210,7 +29044,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="COMP"/>
+<pinref part="U6" gate="G$1" pin="COMP"/>
 <wire x1="66.04" y1="365.76" x2="73.66" y2="365.76" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="365.76" x2="73.66" y2="406.4" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -29239,7 +29073,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="TC"/>
+<pinref part="U6" gate="G$1" pin="TC"/>
 <wire x1="38.1" y1="370.84" x2="22.86" y2="370.84" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="370.84" x2="22.86" y2="350.52" width="0.1524" layer="91"/>
@@ -29654,14 +29488,13 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 </net>
 <net name="N$85" class="0">
 <segment>
-<pinref part="SG1" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="134.62" x2="-5.08" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="132.08" x2="7.62" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="D12" gate="G$1" pin="A2"/>
-<wire x1="7.62" y1="132.08" x2="7.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="127" x2="7.62" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="T14" gate="G$1" pin="C"/>
-<wire x1="7.62" y1="127" x2="7.62" y2="132.08" width="0.1524" layer="91"/>
-<junction x="7.62" y="132.08"/>
+<pinref part="SG1" gate="G$1" pin="1"/>
+<wire x1="-12.7" y1="129.54" x2="-12.7" y2="127" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="127" x2="7.62" y2="127" width="0.1524" layer="91"/>
+<junction x="7.62" y="127"/>
 </segment>
 </net>
 <net name="N$87" class="0">
@@ -29798,14 +29631,14 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <segment>
 <pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="-213.36" y1="236.22" x2="-213.36" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="REF"/>
+<pinref part="U5" gate="G$1" pin="REF"/>
 <wire x1="-213.36" y1="241.3" x2="-205.74" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$105" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="LX"/>
+<pinref part="U5" gate="G$1" pin="LX"/>
 <wire x1="-142.24" y1="251.46" x2="-175.26" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -29821,7 +29654,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <net name="+5V/2" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="OUT"/>
+<pinref part="U5" gate="G$1" pin="OUT"/>
 <wire x1="-160.02" y1="238.76" x2="-160.02" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="-160.02" y1="256.54" x2="-175.26" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="+"/>
@@ -29833,7 +29666,7 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <pinref part="SUPPLY1" gate="G$1" pin="+5V/2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VIN"/>
+<pinref part="U4" gate="G$1" pin="VIN"/>
 <wire x1="63.5" y1="231.14" x2="55.88" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="231.14" x2="55.88" y2="226.06" width="0.1524" layer="91"/>
@@ -29842,14 +29675,14 @@ Source: http://catalog.osram-os.com .. LG_LS_LY_T679_OBS.pdf</description>
 <junction x="55.88" y="231.14"/>
 </segment>
 <segment>
-<pinref part="SG1" gate="G$1" pin="1"/>
-<wire x1="-5.08" y1="137.16" x2="-2.54" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="137.16" x2="-2.54" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="142.24" x2="-2.54" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="D12" gate="G$1" pin="C"/>
-<wire x1="-2.54" y1="139.7" x2="-2.54" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="139.7" x2="-2.54" y2="139.7" width="0.1524" layer="91"/>
-<junction x="-2.54" y="139.7"/>
+<wire x1="5.08" y1="144.78" x2="-2.54" y2="144.78" width="0.1524" layer="91"/>
+<junction x="-2.54" y="144.78"/>
 <pinref part="SUPPLY3" gate="G$1" pin="+5V/2"/>
+<pinref part="SG1" gate="G$1" pin="2"/>
+<wire x1="-12.7" y1="139.7" x2="-12.7" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="144.78" x2="-2.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="T5" gate="G$1" pin="S"/>
